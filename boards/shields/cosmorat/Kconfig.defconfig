@@ -3,17 +3,4 @@ if SHIELD_CHEWY_LEFT
 config ZMK_KEYBOARD_NAME
 	default "Chewy"
 	
-config ZMK_SPLIT
-	default y
-	
-config ZMK_SPLIT_ROLE_CENTRAL
-	default y
-
-endif
-
-if SHIELD_CHEWY_RIGHT
-	
-config ZMK_SPLIT
-	default y
-
 endif
