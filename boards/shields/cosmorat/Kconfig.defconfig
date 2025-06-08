@@ -1,4 +1,4 @@
-if SHIELD_CHEWY_RIGHT
+if SHIELD_CHEWY_LEFT
     config SPI
         default y
     config ZMK_POINTING
