@@ -91,5 +91,22 @@
                                                 &kp LGUI  &trans    &kp SPACE &kp RET   &trans    &kp RALT
             >;
         };
+        auto_mouse {
+            bindings = <
+                &trans  &trans  &trans    &trans    &trans    &trans  &trans &trans &trans &trans &trans &trans
+                &trans  &trans  &mkp MCLK &mkp RCLK &mkp LCLK &trans  &trans &trans &trans &trans &trans &trans
+                &trans  &trans  &trans    &trans    &mo 8     &trans  &trans &trans &trans &trans &trans &trans
+                                          &trans    &trans    &trans  &trans  &trans  &trans 
+                            >;
+                        };
+
+        scroll {
+        bindings = <
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
+                            >;
+                        };
     };
 };
