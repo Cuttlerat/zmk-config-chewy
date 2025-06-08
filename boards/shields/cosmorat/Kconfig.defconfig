@@ -1,6 +1,13 @@
-if SHIELD_CHEWY_LEFT
+if SHIELD_CHEWY_RIGHT
+    config SPI
+        default y
+    config ZMK_POINTING
+        default y
+endif
 
-config ZMK_KEYBOARD_NAME
-	default "Chewy"
-
+if SHIELD_CHEWY_DONGLE
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+    config ZMK_POINTING
+        default y
 endif
