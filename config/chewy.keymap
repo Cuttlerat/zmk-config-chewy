@@ -98,7 +98,7 @@
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans     &mo 8      &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &mo 5      &trans    &trans  &trans  &trans  &trans  &trans  &trans
                            &trans     &trans     &trans    &trans  &trans  &trans
             >;
         };
