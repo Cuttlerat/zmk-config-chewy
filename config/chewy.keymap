@@ -53,11 +53,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        ddd {
-            bindings = <&none>;
-            key-positions = <15 16 28 14>;
-        };
     };
 
     keymap {

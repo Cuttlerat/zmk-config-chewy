@@ -11,7 +11,7 @@
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
         require-prior-idle-ms = <500>;
-        excluded-positions = <19 20 21 31>; // Adjust if needed for your keymap
+        excluded-positions = <15 16 28 14>; // Adjust if needed for your keymap
     };
 
     default_transform: default_transform {
